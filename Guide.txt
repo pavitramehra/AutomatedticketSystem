@@ -1,0 +1,19 @@
+Guide for running the program
+
+download python 3.2 or above
+download postgresql with pgadmin4
+create username and password for databse while setting up postgresql
+create database through pgadmin4 gui or sql shell by typing command "create database dbname"
+put the input file in the same folder with the parking_system.py file
+open parking_system.py file in any python ide or text file and in the auth function inside service function enter all the details like username,password,dbname and hostname(localhost)
+save the file and run the file though terminal or any python ide
+The output file will be available inside the current folder where the Parking_system.py file is present.
+
+links for downloading python and postgresql
+python
+https://www.python.org/downloads/release/python-370/
+postgre
+https://www.postgresql.org/download/
+
+tutorial for setting passwword and username in postgre
+https://www.youtube.com/watch?v=e1MwsT5FJRQ&t=59s&ab_channel=ProgrammingKnowledge
